@@ -1,0 +1,30 @@
+<p>movimiento works!</p>
+<table>
+    <thead>
+      <tr>
+        <th>Código de movimiento</th>
+        <th>Fecha</th>
+        <th>Factura</th>
+        <th>Descripción</th>
+        <th>Comentario</th>
+        <th>Subtotal</th>
+        <th>Total</th>
+        <th>Código de cuenta</th>
+        <th>Tipo de movimiento</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let movimiento of movimientos">
+        <td>{{ movimiento.Codigo_Movimiento }}</td>
+        <td>{{ movimiento.fecha }}</td>
+        <td>{{ movimiento.factura }}</td>
+        <td>{{ movimiento.descripcion }}</td>
+        <td>{{ movimiento.comentario }}</td>
+        <td>{{ movimiento.subtotal }}</td>
+        <td>{{ movimiento.total }}</td>
+        <td>{{ movimiento.Codigo_Cuenta }}</td>
+        <td>{{ movimiento.Codigo_Tipo_Movimiento }}</td>
+      </tr>
+    </tbody>
+  </table>
+  

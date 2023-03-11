@@ -1,0 +1,15 @@
+<p>relacion works!</p>
+<table>
+    <thead>
+      <tr>
+        <th>Código de Cuenta</th>
+        <th>Código de Tipo de Movimiento</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let movimiento of relaciones">
+        <td>{{ relaciones.Codigo_Cuenta }}</td>
+        <td>{{ relaciones.Codigo_Tipo_Movimiento }}</td>
+      </tr>
+    </tbody>
+</table>

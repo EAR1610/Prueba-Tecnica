@@ -1,0 +1,15 @@
+<table>
+    <thead>
+      <tr>
+        <th>Código de cuenta</th>
+        <th>Nombre</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let cuenta of cuentas">
+        <td>{{ cuenta.Codigo_Cuenta }}</td>
+        <td>{{ cuenta.nombre }}</td>
+      </tr>
+    </tbody>
+</table>
+  

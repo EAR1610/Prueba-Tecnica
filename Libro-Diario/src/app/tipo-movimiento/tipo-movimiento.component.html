@@ -1,0 +1,17 @@
+<p>tipo-movimiento works!</p>
+<table>
+    <thead>
+      <tr>
+        <th>Código tipo de movimiento</th>
+        <th>Nombre</th>
+        <th>Tipo</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let movimiento of tiposMovimientos">
+        <td>{{ tiposMovimientos.Codigo_Tipo_Movimiento  }}</td>
+        <td>{{ tiposMovimientos.nombre }}</td>
+        <td>{{ tiposMovimientos.tipo }}</td>
+      </tr>
+    </tbody>
+</table>

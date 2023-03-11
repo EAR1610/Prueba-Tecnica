@@ -1,0 +1,17 @@
+<p>asiento works!</p>
+<table>
+    <thead>
+      <tr>
+        <th>Código de Asiento</th>
+        <th>Código de Movimiento</th>
+        <th>Asiento</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let cuenta of asientos">
+        <td>{{ asientos.Codigo_Asiento }}</td>
+        <td>{{ asientos.Codigo_Movimiento }}</td>
+        <td>{{ asientos.asiento }}</td>
+      </tr>
+    </tbody>
+</table>
